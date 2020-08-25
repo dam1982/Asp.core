@@ -1,0 +1,65 @@
+@{
+    ViewData["Title"] = "Usuario Page";
+    List<HolaMundo.Models.Usuario> usuarios = (List<HolaMundo.Models.Usuario>)ViewData["usuarios"];
+}
+<h1>Usuario</h1>
+@ViewBag.Nombre
+<br>
+@ViewData["Apellido"];
+<br>
+@TempData["Usuario"];
+
+
+
+<ul>
+    @foreach(string fruta in (List<string>)ViewData["frutas"]){
+        <li>
+           <h3>@fruta</h3>
+        </li>
+
+    }
+</ul>
+
+
+
+<ul>
+    <table class="table table-bordered">
+        <thead scope="row">
+                <td >
+                <h4>Nombre</h4>
+                </td>
+                <td >
+                <h4>Apellido</h4>
+                </td>
+                <td >
+                <h4>Correo</h4>
+                </td >
+                <td >
+                <h4>Edad</h4>
+                </td>
+        </thead>
+    </table>    
+
+    @foreach(Usuario v in @ViewBag.Usuarios){
+    <table class="table table-bordered">
+        <tbody scope="row" >
+                <td >
+                <h4>@v.Nombre</h4>
+                </td>
+                <td >
+                <h4>@v.Apellido</h4>
+                </td>
+                <td >
+                <h4>@v.Correo</h4>
+                </td >
+                <td >
+                <h4>@v.Edad</h4>
+                </td>
+        </tbody>
+    </table>
+    }
+</ul>
+
+
+
+
