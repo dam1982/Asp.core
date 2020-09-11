@@ -30,3 +30,4 @@ C:\Users\ADMIN\Documents\asp.core\HolaMundo\obj\Debug\netcoreapp2.2\HolaMundo.pd
 C:\Users\ADMIN\Documents\asp.core\HolaMundo\obj\Debug\netcoreapp2.2\HolaMundo.csproj.CopyComplete
 C:\Users\ADMIN\Documents\asp.core\HolaMundo\obj\Debug\netcoreapp2.2\Razor\Views\Home\Acerca.g.cshtml.cs
 C:\Users\ADMIN\Documents\asp.core\HolaMundo\obj\Debug\netcoreapp2.2\Razor\Views\Usuario\Index.g.cshtml.cs
+C:\Users\ADMIN\Documents\asp.core\HolaMundo\obj\Debug\netcoreapp2.2\Razor\Views\Template\Layout.g.cshtml.cs

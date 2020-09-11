@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Documents\\asp.core\\HolaMUndo\\HolaMundo.csproj": {}
+    "C:\\Users\\ADMIN\\Documents\\asp.core\\HolaMundo\\HolaMundo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Documents\\asp.core\\HolaMUndo\\HolaMundo.csproj": {
+    "C:\\Users\\ADMIN\\Documents\\asp.core\\HolaMundo\\HolaMundo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\asp.core\\HolaMUndo\\HolaMundo.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\asp.core\\HolaMundo\\HolaMundo.csproj",
         "projectName": "HolaMundo",
-        "projectPath": "C:\\Users\\ADMIN\\Documents\\asp.core\\HolaMUndo\\HolaMundo.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Documents\\asp.core\\HolaMundo\\HolaMundo.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Documents\\asp.core\\HolaMUndo\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Documents\\asp.core\\HolaMundo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -2,6 +2,23 @@
     ViewData["Title"] = "Usuario Page";
     List<HolaMundo.Models.Usuario> usuarios = (List<HolaMundo.Models.Usuario>)ViewData["usuarios"];
 }
+@model Usuario;
+
+<div class="container">
+<form asp-action="Registro" asp-controller="Usuario">
+    <div class="formgroup col-md-6">
+            <label>Nombre</label>
+            <input type="text" asp-for ="Nombre" class="form-control" method="post">
+            <label asp-validation-for="Usuario" class="label label-danger"></label>                        
+    </div>
+    <div class="row">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+</form>   
+</div>
+
+
+
 <h1>Usuario</h1>
 @ViewBag.Nombre
 <br>

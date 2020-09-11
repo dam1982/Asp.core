@@ -56,12 +56,18 @@ namespace Usuario.Controllers
             return View();
         }
 
+      //  
+
+      
+    //    [BindProperty]
+    //    public Usuario _Usuario{get;set;}  
         public ContentResult Registro(string Nombre){
+            
             return Content("<h1>" + Nombre + "</h1>");
 
         }
 
-
+      
 
 
     }
